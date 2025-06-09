@@ -14,7 +14,7 @@ public class SimpleInterest {
                 rate = Double.parseDouble(args[1]);
                 time = Double.parseDouble(args[2]);
             } catch (NumberFormatException e) {
-                System.out.println("Invalid argument(s). Please enter numeric values for principal, rate, and time.");
+                System.out.println("Invalid argument Please enter principal, rate, and time.");
                 return;
             }
         } else {
