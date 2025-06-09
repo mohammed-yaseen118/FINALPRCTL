@@ -32,3 +32,4 @@ public class SimpleInterest {
         System.out.println("Simple interest is: " + interest);
     }
 }
+
